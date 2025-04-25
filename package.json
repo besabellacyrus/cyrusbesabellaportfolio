@@ -5,6 +5,12 @@
     "build": "next build",
     "start": "next start"
   },
+  "pnpm": {
+    "overrides": {
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+    }
+  },
   "dependencies": {
     "@tailwindcss/postcss": "4.0.0-alpha.13",
     "@types/node": "20.11.17",
